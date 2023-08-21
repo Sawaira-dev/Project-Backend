@@ -38,7 +38,7 @@ export default function Sidebar() {
                 <button className="btn btn-dark"
                     // onClick={() => dispatch({ type: "USER_LOGOUT" })}
                     onClick={() => {
-                        Cookies.remove('token')
+                        // Cookies.remove('token')
                         dispatch({ type: "USER_LOGOUT" })
                     }}
                 >Logout</button>
